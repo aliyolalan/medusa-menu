@@ -1,0 +1,72 @@
+.menu-item {
+  display: flex;
+  width: 360px;
+  padding: 10px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-bottom: 1px solid #dedede;
+  background: #fff;
+}
+
+.menu-item:nth-child(even) {
+  background: #f6f6f6;
+}
+
+.coffee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.coffee-name {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  align-self: stretch;
+}
+
+.coffee-desc {
+  color: #777;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  align-self: stretch;
+}
+
+.coffee-sizes {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  align-self: stretch;
+}
+
+.coffee-size {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.size {
+  color: #777;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.24px;
+}
+
+.price {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 510;
+  line-height: normal;
+  letter-spacing: -0.24px;
+}

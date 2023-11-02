@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  padding: 50px 10px 10px 10px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(2px);
+}
+
+.logo {
+  height: 32px;
+}
+
+.logo-title {
+  width: 107px;
+  height: 32px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.logo-title__town {
+  color: #6a6a6a;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
