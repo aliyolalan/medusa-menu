@@ -4,7 +4,7 @@ import "./Menu.css";
 
 export default function Menu() {
   return (
-    <main>
+    <main className="main">
       {menuData.map((item, index) => {
         return (
           <div key={index}>

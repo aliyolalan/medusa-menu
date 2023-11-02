@@ -1,3 +1,8 @@
+.main {
+  position: relative;
+  top: 92px;
+}
+
 .menu-item {
   display: flex;
   width: 360px;
